@@ -1,10 +1,10 @@
-//practice promise vs async await using an external api
+//practice .then vs async await using an external api
 
 const button = document.querySelector('#generate-dog-image');
 const output = document.querySelector('#output');
 const image = document.querySelector('#img');
 
-//using promises
+//using .then
 
 button.addEventListener('click', () => {
     fetch("https://dog.ceo/api/breeds/image/random")
